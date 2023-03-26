@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cityInfo {
+  border: 1px solid black;
+  height: 40vh;
+  width: 40vw;
+  margin: 20px;
+}
+
+button {
+  border: 1px solid grey;
+  background-color: aqua;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+img {
+  display: none;
+}
